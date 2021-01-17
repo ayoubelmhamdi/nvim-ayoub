@@ -1,5 +1,8 @@
 let mapleader=" "
-
+set langmenu=en_US
+let $LANG = 'en_US'
+"source $VIMRUNTIME/delmenu.vim
+"source $VIMRUNTIME/menu.vim
 
 
 set wrap 
@@ -33,7 +36,7 @@ set shiftwidth=2            " Tab Settings
 set ignorecase				"
 set smartcase				"
 "set clipboard+=unnamedplus	" external copy past
-set encoding=utf-8			"
+"set encoding=utf-8			"
 set go=a					"
 set mouse=a					"
 set laststatus=0			"

@@ -36,5 +36,8 @@ nnoremap 8dd 9dd
 nnoremap 9dd 10dd
 
 " snbak
-
 nnoremap ,gg :VimGameSnake<CR>
+
+
+
+nnoremap ,, <Plug>(FastFoldUpdate) 

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/data/data/com.termux/files/home/.config/nvim/confPlugin'
 let g:netrw_dirhist_6='/data/data/com.termux/files/home/noc-example'
 let g:netrw_dirhist_5='/data/data/com.termux/files/home'
 let g:netrw_dirhist_4='/data/data/com.termux/files/home/noc-example'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_1='/data/data/com.termux/files/home'
 let g:netrw_dirhist_0='/data/data/com.termux/files/home/.oh-my-zsh'
 let g:netrw_dirhist_9='/data/data/com.termux/files/home'
 let g:netrw_dirhist_8='/data/data/com.termux/files'
-let g:netrw_dirhist_7='/data/data/com.termux/files/home'

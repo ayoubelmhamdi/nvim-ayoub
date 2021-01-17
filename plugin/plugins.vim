@@ -5,15 +5,19 @@ set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 	Plugin 'VundleVim/Vundle.vim'
 	Plugin 'tpope/vim-fugitive'
-	Plugin 'lervag/vimtex'
-	Plugin 'dense-analysis/ale'
-
-"       Plugin 'scrooloose/nerdtree'
 	Plugin 'scrooloose/syntastic'
-"	Plugin 'majutsushi/tagbar'
 	Plugin 'tpope/vim-surround'
 	Plugin 'johngrib/vim-game-snake'
-
+        Plugin 'sophacles/vim-processing'
+        Plugin 'pangloss/vim-javascript'
+        Plugin 'neoclide/coc.nvim'
+        Plugin 'konfekt/fastfold'
+"       Plugin 'lervag/vimtex'
+"       Plugin 'dense-analysis/ale'
+"	Plugin 'majutsushi/tagbar'
+"       Plugin 'scrooloose/nerdtree'
+"       Plugin 'vim-latex/vim-latex'
+"       Plugin 'neoclide/coc-vimtex'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -54,3 +58,10 @@ filetype plugin indent on    " required
 "Plug 'lambdalisue/nerdfont.vim'
 "Plug 'lambdalisue/fern-renderer-nerdfont.vim'
 
+
+
+
+"autocmd VimEnter *
+"  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+"  \|   PlugInstall --sync | q
+"  \| endif

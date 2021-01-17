@@ -1,18 +1,48 @@
+" add source 
+source ~/.config/nvim/ayoub-nvim/set-setting.vim
+" add anather filetype
+"source ~/.config/nvim/ayoub-nvim/filetype.vim
+"map
+source ~/.config/nvim/ayoub-nvim/map/amap.vim
+source ~/.config/nvim/ayoub-nvim/map/nmap.vim
+source ~/.config/nvim/ayoub-nvim/map/cmap.vim
+source ~/.config/nvim/ayoub-nvim/map/imap.vim
+source ~/.config/nvim/ayoub-nvim/map/vmap.vim
+
+"leader
+source ~/.config/nvim/ayoub-nvim/leader/aleader.vim
+source ~/.config/nvim/ayoub-nvim/leader/nleader.vim
+source ~/.config/nvim/ayoub-nvim/leader/cleader.vim
+source ~/.config/nvim/ayoub-nvim/leader/ileader.vim
+source ~/.config/nvim/ayoub-nvim/leader/vleader.vim
+
+
+" snippet
+"source ~/.config/nvim/ayoub-nvim/snippet/java.vim
+"source ~/.config/nvim/ayoub-nvim/snippet/markdown.vim
+"source ~/.config/nvim/ayoub-nvim/snippet/c.vim
+"source ~/.config/nvim/ayoub-nvim/snippet/python.vim
+"source ~/.config/nvim/ayoub-nvim/snippet/shell.vim
+"source ~/.config/nvim/ayoub-nvim/snippet/js.vim
+
+
+
 if !exists('g:vscode')
-"	source ~/.config/nvim/plugconfig/vimwiki.vim
-"	source ~/.config/nvim/plugconfig/easy-motion.vim
-"	source ~/.config/nvim/plugconfig/undotree.vim
-"	source ~/.config/nvim/plugconfig/emmet.vim
-"	source ~/.config/nvim/plugconfig/table-mode.vim
-	source ~/.config/nvim/plugconfig/goyo.vim
-	source ~/.config/nvim/plugconfig/git-gutter.vim
-	source ~/.config/nvim/plugconfig/vim-airline.vim
-	source ~/.config/nvim/plugconfig/vim-fzf.vim
-"	source ~/.config/nvim/plugconfig/vim-hexokinase.vim
-"	source ~/.config/nvim/plugconfig/fern.vim
-"	source ~/.config/nvim/plugconfig/vim-closetag.vim
-"	source ~/.config/nvim/plugconfig/coc.vim
-"	source ~/.config/nvim/plugin/mapleader/nleader.vim
+"	source ~/.config/nvim/confPlugin/javascript.vim
+        source ~/.config/nvim/confPlugin/coc/coc.vim
+ 	source ~/.config/nvim/confPlugin/coc/coc-extensions.vim
+"       source ~/.config/nvim/confPlugin/fastfold.vim
+"	source ~/.config/nvim/confPlugin/vimwiki.vim
+"	source ~/.config/nvim/confPlugin/goyo.vim
+"	source ~/.config/nvim/confPlugin/fzf.vim
+"	source ~/.config/nvim/confPlugin/easy-motion.vim
+"	source ~/.config/nvim/confPlugin/undotree.vim
+"	source ~/.config/nvim/confPlugin/emmet.vim
+"	source ~/.config/nvim/confPlugin/table-mode.vim
+"	source ~/.config/nvim/confPlugin/git-gutter.vim
+"	source ~/.config/nvim/confPlugin/airline.vim
+"	source ~/.config/nvim/confPlugin/hexokinase.vim
+"	source ~/.config/nvim/confPlugin/fern.vim
+"	source ~/.config/nvim/confPlugin/closetag.vim
 endif
 
-"source ~/.config/nvim/plugconfig/vimwiki.vim source ~/.config/nvim/plugconfig/vimwiki.vim

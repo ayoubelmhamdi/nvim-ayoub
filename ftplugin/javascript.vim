@@ -20,3 +20,10 @@ inoremap <leader>,5r (<++>,<++>,<++>,<++>,<++>);<CR><++><Esc>?(<++><CR>/<++><Ent
 "inoremap <leader>,f if(<++>){<CR><++><CR>}<Esc>d0<CR><Esc>d0<CR>ki<++><cr><Esc>?(<++>)<CR>/<++><Enter>"_c4l
 
 inoremap <leader>,f if(<++>){<CR><++><CR>}<CR><++><cr><Esc>?(<++>)<CR>/<++><Enter>"_c4l
+
+
+
+
+" active/disactive ab as symbol
+map <leader>,l :exec &conceallevel ? "set conceallevel=0" : "set conceallevel=1"<CR>
+
